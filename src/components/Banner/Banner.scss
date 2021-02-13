@@ -1,0 +1,16 @@
+.banner {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+
+  background-image: url(../../assets/images/blue-bg.jpg);
+  background-position: center;
+  background-size: cover;
+
+  &__title {
+    color: blanchedalmond;
+    font-weight: bold;
+  }
+}
